@@ -1,0 +1,12 @@
+const express = require('express')
+const app = express();
+const port = 800;
+
+
+app.listen(port, function(err){
+    if(err) {
+        console.log(`Error in runing server ${err}`);
+    }
+
+    console.log(`Server is up and running on port ${port}`);
+});
